@@ -1,0 +1,68 @@
+
+.m-margin10{ margin-top:10px;  }
+.g-nav-full{ width:100%; height:42px;line-height:40px;  background:#fff; font-size:16px; font-weight:normal;color:#e7e7e7;display:-webkit-box;box-shadow: 0px 2px 4px #ccc;position: relative;}
+.g-nav-full a{ width:auto;height:40px;line-height:42px; font-size:16px;font-weight:normal;color:#333;display:block;overflow:hidden;-webkit-box-flex:1;text-align:center;}
+.g-nav-full .m-hover{ color:#19b5fe; border-bottom:2px solid #19b5fe}
+.g-nav-full b{ width:auto; height:40px; line-height:40px; font-size:16px; font-weight:normal; color:#333; display:block; overflow:hidden; -webkit-box-flex:1; text-align:center;}
+
+.g-cms-class{overflow: hidden;padding:8px 10px 18px 10px;box-shadow: 0px 0px 0px #ccc;width: auto;background:#fff;}
+.g-cms-class li{font-size: 14px;display: block;float: left;background: #f2f2f2;width:18%;height: 30px;text-align: center;border-radius: 6px;line-height: 30px;margin:12px 1% 0;overflow: hidden;}
+.g-cms-class li.m-hover {  background:#19b5fe;}
+.g-cms-class li.m-hover a{color: #fff;}
+.g-cms-class li a{font-size: 14px;color: #666;display: block;}
+
+.g-xcx-more{ overflow:hidden; background: #fff; padding: 15px 0px 0px 15px; }
+.g-xcx-more li{overflow: hidden; padding:0px 15px 10px 0px;border-bottom: 1px dashed #eaeaea;margin-bottom: 15px;}
+.g-xcx-more li:last-of-type{border-bottom: 0px;margin-bottom:0px;}
+.g-xcx-more li a{ display:block; overflow: hidden;max-width:600px;margin: 0px auto;position: relative;}
+.g-xcx-more li a i{display: block;width: 100%;}
+.g-xcx-more li a i img{ width: 100%; }
+.g-xcx-more li a span.g-title-name{ height: 32px; line-height: 32px; overflow:hidden;color: #fff; font-size: 16px; font-weight: bold;position:absolute;width:100%; left: 0px;bottom: 57px;background: url(../images/rgba50.png);text-indent: 12px;text-align: center;}
+.g-xcx-more li a p font{ color: red; float:right; }
+.g-xcx-more li a strong{margin-top: 5px;display: block;font-weight: normal;font-size: 15px;color: #999;line-height: 26px;height: 52px;overflow: hidden;}
+.f-more-showcont{ width:90%; height:36px; line-height:36px; font-size:15px; font-weight:normal; color:#fff; text-align:center; background:#19b5fe; border-radius:4px; margin:10px auto 0px; display:block; overflow:hidden; position:relative; zoom:1}
+.f-list-div{overflow: hidden;}
+.g-dome-bd .on{ display: block; }
+
+.hotcomp{ overflow:hidden; padding:12px 15px 0px 0px;background: #fff;}
+.hotcomp li{ width:50%; float:left;margin-bottom: 12px;}
+.hotcomp li a{ display: block; border: 1px solid #eee;text-align: center;margin-left: 15px;padding: 10px;}
+.hotcomp li a img{ width: 160px; height:67px; }
+.hotcomp li a p{ height: 26px; line-height: 26px; color: #333; font-size: 15px; text-align: center; overflow: hidden; }
+
+.g-tjzq-bd{ overflow: hidden; background:#fff; }
+.g-tjzq-bd li {overflow: hidden;margin: 0px 15px;border-bottom: 1px dotted #eee;}
+.g-tjzq-bd li:last-of-type{ border-bottom: 0px; }
+.g-tjzq-bd li a {width: 100%;height: auto;padding: 15px 0;display: -webkit-box;overflow: hidden;box-sizing: border-box;position: relative;zoom: 1;margin: 0;text-decoration: none;}
+.g-tjzq-bd li a img.g-ku-ico {width: 70px;height: 70px;border-radius: 16px;display: block;overflow: hidden;}
+.g-tjzq-bd li a p{width: auto;    height: auto;    display: block;    overflow: hidden;    -webkit-box-flex: 1;    padding: 0 65px 0 12px; position: relative;}
+.g-tjzq-bd li a p em{ width: 84px;height: 18px; overflow: hidden; display: block; margin-top:4px; }
+.g-tjzq-bd li a p em img{ width: 100%; height: auto }
+.g-tjzq-bd li a p strong{display: block;color: #999;font-size: 12px; font-weight: normal; height:23px; line-height:23px; overflow: hidden; margin-top:3px; }
+.g-tjzq-bd li a p i{position: absolute;top:22px;right:0px;width:65px;height: 25px;line-height: 25px;border: 1px solid #e5e5e5;text-align: center;color: #888;background-color: #fff;font-size: 12px;border-radius: 2px;  font-style: normal;}
+.g-tjzq-bd li a p font.u-name{height: 20px;line-height: 20px;font-size: 15px;font-weight: normal;color: #333;display: block;overflow: hidden;margin-top: 2px;}
+
+
+
+.m-game-title{overflow: hidden;height: 49px;padding: 0px 15px;background: #fff;border-bottom: 1px solid #eee; } 
+.m-game-title strong{font-size: 20px;font-style: normal;color: #333;display: inline-block;border-left: 8px solid #19b5fe;text-indent: 12px;height: 25px;line-height: 25px;font-weight: bold;margin-top: 12px;}
+.g-wjdq{margin-top:10px;overflow: hidden; background: #fff; }
+.g-wjdq ul{padding: 15px 0px 0px 15px;overflow: hidden;}
+.g-wjdq ul li{overflow: hidden;position: relative;padding-left: 165px;padding-right: 10px;border-bottom: 1px dashed #eaeaea;margin-bottom: 15px;padding-bottom: 15px;height: 60px;}
+.g-wjdq ul li a{display: block;}
+.g-wjdq ul li i{position: absolute;left: 0px;top: 0px;width: 155px;height: 60px;}
+.g-wjdq ul li i img{    width: 155px;height: 60px;}
+.g-wjdq ul li b{display: block;height:20px;overflow: hidden;line-height: 20px;color: #333;font-size: 16px;}
+.g-wjdq ul li p{color: #999;height: 36px;overflow: hidden;line-height: 18px;/* white-space: nowrap; */word-break: break-all;margin-top: 4px;text-overflow: ellipsis;
+display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+
+
+.g-gl-list{overflow: hidden;background-color: #fff;}
+.g-gl-list li{overflow: hidden;border-bottom: 1px dotted #eee;}
+.g-gl-list li a{display: block;position: relative;padding: 15px 15px 15px 100px;height: 70px;overflow: hidden;}
+.g-gl-list li a img{ width: 70px;height: 70px;border-radius: 14px; position:absolute;left: 15px;top: 15px;}
+.g-gl-list li strong{display: block;height:20px;line-height: 20px;font-size: 15px; color: #333;margin-bottom: 5px;}
+.g-gl-list li span{display: block;height: 20px;font-size: 12px;line-height: 20px;color: #999;margin-bottom: 5px;}
+.g-gl-list li span font{}
+.g-gl-list li .g-gl-info{ color: #999;font-size: 12px;height: 20px;line-height:20px;height: 20px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.g-gl-list li .g-gl-info p{height: 20px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}

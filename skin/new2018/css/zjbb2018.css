@@ -1,0 +1,125 @@
+
+/*--------*/
+.g-main-bg{ background-color: #fff; box-shadow: 0px 1px 3px #ccc;}
+.g-nav { height: 16px;line-height: 16px;font-size: 14px; font-weight: normal;color: #333;padding: 14px 0 11px; }
+.g-nav span { float: left; width: 16px; height: 16px; background: url(../../new2016/images/ku-icon.png) no-repeat;; margin:0px 10px 0 0 ; }
+
+.g-hotico{ overflow: hidden;padding:20px 20px 10px 20px; position: relative; width: 1160px;}
+.g-hotico span{ position: absolute; left: 0px; top: 0px; display: block; background: url(../images/g-bbico.png) no-repeat; width: 50px; height: 50px; }
+.g-hotico ul li {width:85px;height: auto;float: left;margin: 12px 15px 12px 16px;display: inline;overflow: hidden;}
+.g-hotico ul li a {width: 100%;height: auto;display: block;overflow: hidden;}
+.g-hotico ul li a img{margin: 0px auto;width: 75px;height:75px;border-radius: 12px;display: block;overflow: hidden;}
+.g-hotico ul li a strong {width: 100%;height: 20px;line-height: 20px;font-size: 14px;font-weight: normal;color: #555;text-align: center;margin: 6px 0 0 0;display: block;overflow: hidden;}
+.g-hotico ul li a:hover strong{ color:#f40;}
+.g-hotico ul li a b{margin: 0px auto; display: block; width:45px; height:45px;padding:15px;border-radius: 12px; background-color: #f60; color: #fff; font-size: 16px; font-weight: normal; text-align: center; }
+.g-hotico ul li a b{ display: none; }
+.g-hotico ul li:hover a b{ display: block; }
+.g-hotico ul li:hover a img{ display: none; }
+/*----必备 end----*/
+
+.g-zj-class{ overflow: hidden; margin-top: 15px; }
+.g-zj-class .m-fl-class{ width: 235px; overflow: hidden; }
+.g-zj-class .m-fr-list{ width: 950px; overflow: hidden; padding-bottom:15px; }
+.m-tith4 {height: 24px;line-height: 24px;font-size: 18px;color: #333;text-indent: 15px;margin: 15px 0 0;}
+.m-tith4 i {width: 5px;height: 24px;background: #00aaff;float: left;}
+.m-tith4 span{ cursor: pointer; width: 38px;height: 15px;float: right;margin:8px 15px 0 0;display: inline;overflow: hidden;background:url(../images/icobox.png) no-repeat -4px -510px;  }
+.m-tith4 span:hover{background:url(../images/icobox.png) no-repeat -163px -510px;}
+.m-tith4 span a{ display:block;width: 38px;height: 15px; }
+.g-zj-class .m-fl-class ul{ margin:10px 0px 15px 15px; border-top: 1px dashed  #dedede; }
+.g-zj-class .m-fl-class ul li{ height: 48px;border-bottom: 1px dashed  #dedede; line-height: 48px;  padding: 0px 18px 0px 36px; background: url(../images/m-fl-classico.png) no-repeat 14px 14px;}
+.g-zj-class .m-fl-class ul li a{font-weight: bold;font-size: 14px; color: #444; display:block;background: url(../images/m-fl-classico.png) no-repeat 144px -105px;}
+.g-zj-class .m-fl-class ul li a:hover{ color: #00aaff;background: url(../images/m-fl-classico.png) no-repeat 144px -47px;}
+.g-zj-class .m-fl-class ul li.m-hover a{color: #00aaff;background: url(../images/m-fl-classico.png) no-repeat 144px -47px;}
+/*----class分类 end----*/
+
+.m-fr-box{ overflow: hidden; }
+.m-fr-box ul{border-top: 1px solid #ddd; overflow: hidden; margin:10px 15px 0px 0px; padding:16px 16px 0px 16px;}
+.m-fr-box ul li{ overflow: hidden; margin-bottom:15px; float:left; width:290px; padding-top: 5px; margin-left:11px; }
+.m-fr-box ul li a.g-img {float: left;width: 48px; height:48px;margin-right: 12px; display: block;overflow: hidden;}
+.m-fr-box ul li a.g-img img {border-radius: 6px;width: 48px; height:48px;}
+.m-fr-box ul li .g-intro {width: 208px;float: left;overflow: hidden;position: relative;}
+.m-fr-box ul li .g-name {font-size: 14px;height: 26px;line-height: 26px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.m-fr-box ul li .g-other {font-size: 12px;color: #999;margin-top: 3px;}
+.m-fr-box ul li .g-down-link {position: absolute;top: 0;right: 0;height: 100%;background: #fff;padding-left: 2px;box-shadow: -10px 0 10px #fff;}
+.m-fr-box ul li .g-down-link a {border-radius:4px;display: none;width: 56px;height:24px;line-height: 24px;text-align: center;color: #09f;background: #fff;letter-spacing: 1px;margin-top: 10px;border: 1px solid #00aaff;overflow: hidden;}
+.m-fr-box ul li:hover .g-down-link a{ display: block; }
+.m-fr-box ul li .g-down-link a:hover{ background: #00aaff; color: #fff;}
+.m-fr-box ul li .g-name:hover a { color: #00aaff;}
+
+/*----列表 end----*/
+
+
+
+/*----文件格式大全----*/
+.g-white{background:#fff;}
+.g-banner{ height:350px; overflow:hidden; }
+.g-hotbrand{ width:1090px; height: 50px;position: relative;padding-left:110px;}
+.g-hotbrand span{position: absolute;left: 0px;top: 0px;height: 50px;line-height: 50px;display:block; width:110px;text-align: center;font-size: 15px;color: #fff; background:#20aef0;}
+.g-hotbrand ul{ width: 1080px;  margin: 0 auto;margin-left: 5px;overflow: hidden;}
+.g-hotbrand ul li{ float: left;width: 38px; line-height: 50px; margin-left: 2px;}
+.g-hotbrand ul li a{ display: block; line-height:28px; width:32px;margin:11px auto;text-align: center; color: #666; font-size: 14px;border-radius: 4px;}
+.g-hotbrand ul li a:hover{color: #fff; background:#20aef0; }
+.g-hotbrand ul li.on-hover a{color: #fff; background:#20aef0;}
+
+.g-zlist{ position:relative;overflow: hidden;padding-left: 45px;}
+.g-zlist em{ width: 45px;height: 45px;display: block;line-height: 45px;text-align: center; background: #20aef0; color: #fff; font-size: 16px;font-weight: bold;position: absolute;left: 0px;top: 0px;}
+.g-zlist ul{overflow: hidden; background: #fff;padding: 20px 18px;border-left: 1px solid #eee;}
+.g-zlist ul li{border: 1px solid #eee;overflow: hidden;width: 185px;float: left;height: 90px;margin-right: -1px;margin-bottom: -1px;}
+.g-zlist ul li a{display:block}
+.g-zlist ul li span{display: block;margin: 12px;height: 67px;overflow: hidden;}
+.g-zlist ul li span img{width: 64px;height: 64px;margin: 3px 5px 0 8px;vertical-align: middle;border-radius: 14px;}
+.g-zlist ul li span b{font-size: 16px;font-weight: normal;position: relative;top: 4px;text-transform:capitalize;}
+.g-zlist ul li:hover{background: #f8f8f8;}
+.g-zlist ul li:hover span b{ color: #20aef0 }
+
+.g-main .m-mainleft{ width: 885px; }
+.g-main .m-mainright{ width: 300px; }
+.m-newstith4 { height: 24px;  padding:0 20px; border-left: 4px #0af solid ; margin:18px 0 15px; position: relative;}
+.m-newstith4 span.f-fl{ font-size: 20px; color: #333; font-weight: normal; height: 24px; line-height: 24px; margin: 0px 5px 0 0  }
+.m-newstith4 .f-fl i{ display: inline-block; width: 30px; height: 30px; }
+.m-newstith4 .f-fr { margin:3px 0 0 0 ; font-weight: normal; }
+.m-newstith4 .f-fr a { font-size: 14px; color: #aaa }
+.m-newstith4 .f-fr a:hover { color: #f77 }
+
+.g-clainfo{overflow: hidden;background: #fff;box-shadow: 0px 0px 2px #cfcfcf;}
+.g-clainfo p{margin: 0px 20px;overflow: hidden;}
+.g-clainfo span{display: block;margin: 10px 20px 15px;overflow: hidden; line-height: 26px;color: #666; }
+.g-clalist{overflow: hidden;background: #fff;box-shadow: 0px 0px 2px #cfcfcf;margin-top:15px; }
+.g-clalist ul{overflow: hidden;margin-right:20px;}
+.g-clalist ul li{overflow: hidden;float: left;margin-left:20px;margin-bottom:20px;height: 28px;}
+.g-clalist ul li a {height: 28px;display: block;overflow: hidden;width: 120px;}
+.g-clalist ul li a img {width: 28px;height: 28px;vertical-align: middle;padding-right: 5px;}
+.g-clalist ul li:hover a{ color: #20aef0;text-decoration: underline; }
+
+.g-txtinfo{ background: #fff;overflow: hidden; }
+.g-txtinfo p{padding:0px 20px 15px;overflow: hidden;line-height: 28px; color: #666;}
+
+.g-txtlist{ background: #fff;overflow: hidden;margin-top:15px; }
+.g-txtlist ul li {overflow: hidden;border-top: 1px dashed #ebebeb;padding: 10px 20px 10px 85px;position: relative;clear: both;}
+.g-txtlist ul li:before,#main dd li:after{content: "";display: table;}
+.g-txtlist ul li:after{clear: both;}
+.g-txtlist ul li .pic {width:50px;height: 50px;position: absolute;left: 20px;top: 10px;}
+.g-txtlist ul li .pic img {width: 50px;height: 50px;vertical-align: middle;}
+.g-txtlist ul li p.u-name {display: block;width:100%;line-height: 30px;height: 30px;overflow: hidden;font-size: 16px;font-style: normal;font-weight: bold;}
+.g-txtlist ul li p.u-name a{ width: 500px;display: block;float: left;overflow: hidden;height: 30px;}
+.g-txtlist ul li p.u-name .count {float: right;font-weight: normal;font-size: 12px;}
+.g-txtlist ul li p.u-name .count s {font-style: normal;padding: 0 1px;text-decoration: none;}
+.g-txtlist ul li p.u-name span {color: #999;font-size: 12px;float: right;display: inline;_margin-top: 9px;font-weight: normal;font-style: normal;}
+.g-txtlist ul li p.u-name span em{display: block;    height: 14px;    width: 80px;    float: right;    margin-top: 8px}
+.g-txtlist ul li p.u-name span em img{display: block;}
+.g-txtlist ul li p {margin-bottom: 4px; color: #666;line-height: 22px;height: auto;width:680px;overflow: hidden;}
+.g-txtlist ul li p.u-excerpt{height: 44px;}
+.g-txtlist ul li p i {font-style: normal;color: #999;}
+.g-txtlist ul li p i span {padding-right: 14px;display: block;float: left;}
+.g-txtlist ul li p i span em{display: inline-block;height: 14px;    width: 80px;  }
+.g-txtlist ul li p i span em img{display: block;padding-top: 1px;}
+.g-txtlist ul li .down-link {position: absolute;border-radius: 2px;right: 24px;top: 52px;width: 58px;line-height: 24px;text-align: center;background: #20aef0;color: #fff;}
+.g-txtlist ul li .down-link:hover {background: #1c94cc;color: #fff;}
+.g-txtlist ul li:hover p.u-name a{ color: #20aef0 }
+
+.g-txtyd{ background: #fff;overflow: hidden;margin-top:15px;padding-bottom: 15px;}
+.g-txtyd li{ width: 410px; margin: 0 0 0 20px; height: 32px; line-height: 32px; overflow:hidden;float: left;}
+.g-txtyd li span { color: #999;}
+.g-txtyd li a{ font-size: 14px;float: left;overflow: hidden;  width: 340px;display: block;}
+.g-txtyd li a b { float: left; width: 4px; height: 4px; background-color: #0ad; margin:14px 8px 0 0}
+.g-txtyd li:hover a{ color: #20aef0 }

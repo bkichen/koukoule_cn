@@ -1,0 +1,104 @@
+/* 基于normalize bootstrap 的全局重置CSS文件部分1.2版本 */
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+html {  font-family: sans-serif; /* 1 */  -ms-text-size-adjust: 100%; /* 2 */  -webkit-text-size-adjust: 100%; /* 2 */-webkit-tap-highlight-color: rgba(0, 0, 0, 0);/* 消除移动浏览器点击蓝色背景 */}
+body {  margin: 0;}
+article,aside,details, /* 1 */figcaption,figure,footer,header,main, /* 2 */menu,nav,section,summary { /* 1 */  display: block;}
+audio,canvas,progress,video {  display: inline-block;}
+audio:not([controls]) {  display: none;  height: 0;}
+progress {  vertical-align: baseline;}
+template, /* 1 */[hidden] {  display: none;}
+a {  background-color: transparent; /* 1 */  -webkit-text-decoration-skip: objects; /* 2 */}
+a:active,a:hover {  outline-width: 0;}
+abbr[title] {  border-bottom: none; /* 1 */  text-decoration: underline; /* 2 */  text-decoration: underline dotted; /* 2 */}
+b,strong {  font-weight: inherit;}
+b,strong {  font-weight: bolder;}
+dfn {  font-style: italic;}
+h1 {  font-size: 2em;  margin: 0.67em 0;}
+mark {  background-color: #ff0;  color: #000;}
+small {  font-size: 80%;}
+sub,sup {  font-size: 75%;  line-height: 0;  position: relative;  vertical-align: baseline;}
+sub {  bottom: -0.25em;}
+sup {  top: -0.5em;}
+img {  border-style: none;}
+svg:not(:root) {  overflow: hidden;}
+code,kbd,pre,samp {  font-family: monospace, monospace; /* 1 */  font-size: 1em; /* 2 */}
+figure {  margin: 1em 40px;}
+hr {  box-sizing: content-box; /* 1 */  height: 0; /* 1 */  overflow: visible; /* 2 */}
+button,input,select,textarea {  font: inherit; /* 1 */  margin: 0; /* 2 */}
+optgroup {  font-weight: bold;}
+button,input { /* 1 */  overflow: visible;}
+button,select { /* 1 */  text-transform: none;}
+button,html [type="button"], /* 1 */[type="reset"],[type="submit"] {  -webkit-appearance: button; /* 2 */}
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}
+button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring {  outline: 1px dotted ButtonText;}
+fieldset {  border: 1px solid #c0c0c0;  margin: 0 2px;  padding: 0.35em 0.625em 0.75em;}
+legend {  box-sizing: border-box; /* 1 */  color: inherit; /* 2 */  display: table; /* 1 */  max-width: 100%; /* 1 */  padding: 0; /* 3 */  white-space: normal; /* 1 */}
+textarea {  overflow: auto;}
+[type="checkbox"],[type="radio"] {  box-sizing: border-box; /* 1 */  padding: 0; /* 2 */}
+[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button {  height: auto;}
+[type="search"] {  -webkit-appearance: textfield; /* 1 */  outline-offset: -2px; /* 2 */}
+[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration {  -webkit-appearance: none;}
+::-webkit-input-placeholder {  color: inherit;  opacity: 0.54;}
+::-webkit-file-upload-button {  -webkit-appearance: button; /* 1 */  font: inherit; /* 2 */}
+/* normalize.css结束 */
+.clearfix {	*zoom:1}
+.clearfix:before,.clearfix:after {	display:table;	line-height:0;	content:""}
+.clearfix:after {	clear:both}
+p{margin: 0;}
+img {	width:auto\9;	height:auto;	max-width:100%;	vertical-align:middle;	border:0;	-ms-interpolation-mode:bicubic}
+ul,ol,dl,h1,h2,h3,h4,h5,h6,dt,dd{margin:0;padding:0}
+ul li,ol li{list-style:none}
+.f-fl,.f-lifl li{float:left;display:inline}
+.f-fr{float:right;display:inline}
+/* 全站全局CSS部分结束 */
+button, input, select, textarea, a{outline:none;}
+a:link{ text-decoration:none}
+body{text-align:left;font-size: 12px;padding:0 0 0 0; font-family:"microsoft yahei";  background:none; background:#f0f0f0;margin: 0px auto;}
+.margin10{ margin-top:10px;  }
+.clearfix:after {content: "";display: block;height: 0;visibility: hidden;clear: both;}
+.g-top-full{ width:100%; height:45px; line-height:45px; background:#19b5fe; padding:0 10px; font-size:22px; font-weight:bold;color:#fff; text-align:center; display:block; box-sizing:border-box;  position:relative; zoom:1; z-index:999}
+.g-top-full .g-back-home{ width:40px; height:45px; position:absolute; left:0; top:0; background:url(../../../img/custom-icon.png) no-repeat 14px 12px; background-size:400px; display:block; overflow:hidden;}
+.g-top-full .g-home-ico{background:url(../images/home-ico.png) no-repeat center center; background-size: 28px;}
+.g-top-full h1{ font-size: 22px;overflow: hidden;}
+.g-top-full .g-list-back{ width:136px;height:21px; position:relative; zoom:1; background:none; left:4px;top:12px; display:block; overflow:hidden;}
+.g-top-full .g-list-back b{width:12px; height:21px; position:absolute; left:14px; top:12px; background:url(../../../img/custom-icon.png) no-repeat 0 0; background-size:400px; display:block; overflow:hidden; left:0; top:0;}
+.g-top-full .g-list-back h1{ font-size:18px; font-weight:bold; color:#fff; text-indent:20px; height:20px; line-height:20px; text-align:left}
+.g-top-full p{ width:67px; height:45px; position:absolute; right:0; top:0; display:block; overflow:hidden;}
+.g-top-full p a{ width:21px; height:21px; float:left; margin:14px 0 0 0; background:url(../../../img/custom-icon.png) no-repeat -86px 0; background-size:400px;display:inline; overflow:hidden}
+.g-top-full .m-navshow-btn{ width:36px; height:45px; font-size:0; text-indent:-9999;float:left; margin:0 0 0 10px; background:url(../../../img/custom-icon.png) no-repeat -166px 14px; background-size:400px; display:inline; overflow:hidden}
+.g-top-full .m-black{ width:100%; height:100%;  opacity:0.7; position:fixed; left:0; top:45px; display:none; overflow:hidden; z-index:90;background: rgba(0,0,0,0.7);}
+.g-top-full .m-hover{ background:url(../../../img/custom-icon.png) no-repeat -166px -37px #fff;background-size:400px;}
+.g-top-full .m-navshow-ul{ width:100%; height:auto; position:absolute; right:0; top:45px; background:#f8f8f8; z-index:999; display:none;overflow:hidden; padding:0 0 10px 10px; box-sizing:border-box}
+.g-top-full .m-navshow-ul li{ width:33.33%; height:auto; padding:10px 10px 0 0; box-sizing:border-box; float:left; display:inline; overflow:hidden; position:relative;zoom:1}
+.g-top-full .m-navshow-ul li a{width:100%;he;height: 40px;background: #fff;padding:0 0 0 25px;border-radius: 6px;box-sizing:border-box; text-align:center; display:block;overflow:hidden;white-space:nowrap; position:relative; zoom:1}
+.g-top-full .m-navshow-ul li a b{width:20px;height:40px;background: url(../../../img/custom-icon.png) no-repeat -85px -355px;background-size:400px;margin:0;display:inline-block;overflow:hidden;position:absolute;left: 8px;top: 1px;}
+.g-top-full .m-navshow-ul li a strong{width:auto;height: 40px;line-height: 40px;font-size:16px;font-weight:normal;color:#333; text-align:center;display:block;overflow:hidden;}
+.g-top-full .m-navshow-ul li:nth-child(1) b{ background-position:0 -41px;}
+.g-top-full .m-navshow-ul li:nth-child(2) b{ background-position:0 -82px;}
+.g-top-full .m-navshow-ul li:nth-child(3) b{ background-position:0 -127px;}
+.g-top-full .m-navshow-ul li:nth-child(4) b{ background-position:0 -171px;}
+.g-top-full .m-navshow-ul li:nth-child(5) b{ background-position:-86px -308px;}
+.g-top-full .m-navshow-ul li:nth-child(6) b{ background-position:0 -216px;}
+.g-top-full .m-navshow-ul li:nth-child(7) b{ background-position:0 -263px;}
+.g-top-full .m-navshow-ul li:nth-child(8) b{ background-position:0 -308px;}
+.g-top-full .m-navshow-ul li:nth-child(9) b{ background-position:-86px -263px;}
+.g-top-full .m-navshow-ul li:nth-child(10) b{ background-position:0 -355px;}
+.g-top-full .m-navshow-ul li:nth-child(11) b{ background-position:0 -403px;}
+.m-float{ position:fixed; left:0; top:0; z-index:999}
+
+/*底部*/
+footer{width: 100%;height: 45px;line-height: 45px;background: #dedede;font-size:16px;border-top: 1px solid #d2d2d2;font-weight: normal;color: #333;text-align: center;margin: 10px 0 0 0;display: block;overflow: hidden;}
+footer a {padding: 0 10px;text-decoration: none;color: #333;font-size:16px;}
+.m-rootid{ display:none;}
+.m-backTop{ width:40px; height:40px; background:url(../../../img/index-icon.png) no-repeat 0 -143px; background-size:600px; display:none; overflow:hidden; position:fixed; right:10px; bottom:100px; z-index:500}
+.m-catalogid{ display:none}
+.showad{  margin: 4px 2px;  background-color: #ffffff; overflow:hidden}
+body #icon_0,html #icon_0 { z-index: 9999}
+
+
+
+
+
+
+
+

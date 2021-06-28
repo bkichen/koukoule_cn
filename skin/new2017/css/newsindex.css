@@ -1,0 +1,119 @@
+.g-newstop { margin: 15px auto }
+.g-newstop dt,.g-newstop dd { height: 510px; background-color: #fff;box-shadow:0px 0px 2px #cfcfcf }
+.g-newstop dt{ width: 340px; }
+.g-newstop dd{ margin-left: 15px; }
+.g-newstop dd.m-newtopc {width: 510px;}
+.g-newstop dd.m-newtopr {width: 320px;}
+
+.m-newsico { background-image: url(../images/newsico.gif); background-repeat: no-repeat; }
+.m-tith4 { height: 42px;  margin: 12px 20px }
+.m-tith4 .f-fl{ font-size: 20px; color: #333; font-weight: normal; height: 38px; line-height: 38px; margin: 3px 5px 0 0  }
+.m-tith4 .f-fl i{ display: inline-block; width: 30px; height: 30px; }
+.m-tith4 .f-fr { margin:11px 0 0 0 ; font-weight: normal; }
+.m-tith4 .f-fr a { font-size: 14px; color: #aaa }
+.m-tith4 .f-fr a:hover { color: #f77 }
+.m-xbtj i{ background-position: -9px -7px }
+.m-jkzs i{ background-position: -9px -47px }
+
+
+/* 第一栏 */
+.m-tjimg {}
+.m-tjimg li{ width: 140px; height: 124px; margin: 0 0 22px  20px; }
+.m-tjimg li a { display: block; }
+.m-tjimg li a img { display: block;width: 140px; height: 94px; }
+.m-tjimg li a p{ height: 30px; line-height: 30px; overflow: hidden; padding: 0 10px; font-size: 14px; background-color: #fafafa; }
+.m-tjimg li a:hover p{ background-color:#f77; color: #fff  }
+.m-tjimg li a:hover img {filter:alpha(opacity=80); -moz-opacity:0.8; opacity: 0.8;}
+
+.m-newtopc h2{font-size: 24px;text-align: center; height: 40px; line-height: 40px; overflow: hidden; padding: 0 20px; margin: 10px auto 0 }
+.m-h2info { color: #aaa; margin: 0 20px;  overflow: hidden; font-size: 14px; }
+.m-h2info p { height: 24px; line-height: 24px; overflow: hidden; margin-bottom: 10px; }
+
+.m-newtopsul{border-top: 1px #f5f5f5 solid; margin:0 20px; padding: 8px 0 8px 0 }
+.m-newtopsul li { height: 32px; line-height: 32px; overflow: hidden; }
+.m-newtopsul li a { font-size: 14px; }
+.m-newtopsul li span.f-fr {color: #999}
+.m-newtopsul li span.f-fl{ background-color: #00aaff; width: 4px; height: 4px; margin:14px 5px 0 0;}
+
+.m-jkzsdiv {position: relative;}
+.m-jkzsdiv p.m-utop,.m-jkzsdiv p.m-ubottom {position:absolute; height: 18px; width: 3px; background-color: #fff; left: 19px; z-index: 1}
+.m-jkzsdiv p.m-utop {top: 0}
+.m-jkzsdiv p.m-ubottom{bottom: 0}
+.m-jkzsul { position: relative; }
+.m-jkzsul li{ border-left: 1px #f5f5f5 solid; margin: 0 20px; padding-left: 20px;position: relative; }
+.m-jkzsul li .f-fr { color: #999; margin:8px 0 0 8px; }
+.m-jkzsul li b { width: 7px; height: 7px; position:absolute;left: -4px ;top:10px; background: url(../images/ullidian.gif) left -7px; z-index: 10 }
+.m-jkzsul li.f-ix b { background-position: left top }
+.m-jkzsul li p.m-titbt{ height: 28px; line-height: 28px; font-size: 14px; overflow:hidden }
+
+.m-jkzsul li .m-js { display: none; background: url(../images/ppage.gif) #fafafa no-repeat;padding: 14px 10px 10px 10px; line-height: 20px; height: 48px; overflow: hidden; }
+.m-jkzsul li .m-js p { height: 40px; line-height: 20px; overflow: hidden;  padding-top: 6px; color: #999}
+.m-jkzsul li .m-js img { width: 80px; height: 50px; display: block; margin-right: 15px }
+.m-jkzsul li.f-ix .m-js{ display: block; }
+
+
+/* 个性板块 */
+.g-gexing { background-color: #fff;    box-shadow: 0px 0px 2px #cfcfcf; margin-bottom: 15px; padding-top: 12px  }
+.g-gexing h4 { margin-top: 0 }
+
+/* 下面文章板块 */
+.g-news { margin-bottom: 15px }
+.g-news dd,.g-news dt { height: 350px; }
+.g-news dd { width: 865px;background-color: #fff;    box-shadow: 0px 0px 2px #cfcfcf; }
+.g-news dt { width: 320px;background-color: #fff;    box-shadow: 0px 0px 2px #cfcfcf; }
+.g-news dt h4 { margin-bottom: 0px; }
+.m-ul2 { border:none;padding: 0 }
+
+.m-divimg {}
+.m-divimg li{ position:relative; width:190px; height:125px; margin:0 0 20px 20px; overflow:hidden;}
+.m-divimg li a{ display: block; }
+.m-divimg li a img{ width:190px; height:125px;}
+.m-divimg li a p{ position:absolute; left:0; bottom:0; width:100%; height:30px; line-height:30px; text-align:center; background-color:rgba(50,50,50,0.6);*background-color:#333; color:#fff; }
+.m-divimg li a:hover p { background-color:rgba(255,120,120,0.8);*background-color:#f77; }
+.m-divimg li a p span{ padding:0 8px; display: block; font-size: 14px;}
+
+.g-box-1200 .m-divimg .m-fximg li {width:150px; height:150px;}
+.g-box-1200 .m-divimg .m-fximg li a img{ width:150px; height:150px; display: block;  }
+
+
+.g-news .m-news2 { width: 420px }
+.g-news .m-news2 ul li { margin-right: 0;*border:1px #fff solid;  }
+.g-news .m-news2 ul li p {height: 32px; line-height: 32px;  }
+
+
+/* 个性板块 */
+.m-gximg { position: relative; }
+.m-gximg b{ position: absolute; width: 46px; height: 72px; background-color:;top: 54px; cursor: pointer; }
+.m-gximg b.m-prev-page {left: -50px; background-position: 0 -275px;}
+.m-gximg b.m-hover{background-position: 0 -185px;}
+.m-gximg b.m-next-page {right: -50px;background-position: 0 -450px;}
+.m-gximg b.m-hover2{background-position: 0 -360px;}
+.m-gximg div{ margin:0 20px; width: 1160px; height: 240px; overflow: hidden;position: relative; }
+.m-gximg div ul{ position: relative; }
+.m-gximg div ul li{ margin:0 15px 15px 0 ; width: 180px;overflow: hidden; height: 224px; }
+.m-gximg div ul li a{ font-size: 14px; width: 180px; display: block; }
+.m-gximg div ul li a img { width: 180px; height: 180px; display: block; margin: 0 0 5px}
+.m-tith4 .m-jxgexspan { margin:7px 10px 0 0; }
+.m-tith4 .m-jxgexspan a{ display: inline-block; width: 70px; height: 26px; border-radius: 5px; line-height: 26px; text-align: center; margin-right: 10px }
+.m-tith4 .m-jxgexspan a:hover { background-color: #f77; color: #fff }
+/* 图片切换 */
+.m-hdbox{ position:relative; width: 280px; height: 175px; margin:12px auto 0 ; overflow:hidden;}
+.flashbox { width: 280px; height: 175px; }
+.flashbox ul { width: 2850px; height: 175px; position: absolute; left: 0; top: 0; }
+.flashbox li { width: 280px; height: 175px; float: left; display: block; }
+.flashbox a { display: block; width: 280px; height: 175px; position: relative; overflow: hidden }
+.flashbox a img{width: 280px; height: 175px;}
+.flashbox em { display: block; width: 280px; height: 36px; background: #000; filter: alpha(opacity=50); -moz-opacity: 0.5; -khtml-opacity: 0.5; opacity: 0.5; position: absolute; left: 0px; bottom: 0px;}
+.flashbox strong { display: block; width: 230px; height: 36px; line-height: 36px; padding: 0 30px 0 10px; position: absolute; left: 0px; bottom: 0;  color: #fff; font-size: 14px; font-weight: bold; overflow:hidden; font-weight: normal;}
+.flashpoint { width: 36px; height: 6px; position: absolute; right: 0px; bottom: 14px }
+.flashpoint i { float: left; width: 12px; height: 6px;background: #fff; margin-right: 5px; cursor: pointer; overflow: hidden; filter: alpha(opacity=50); -moz-opacity: 0.5; -khtml-opacity: 0.5; opacity: 0.5; }
+.flashpoint i.on { background: #f70; filter: alpha(opacity=80); -moz-opacity: 0.8; -khtml-opacity: 0.8; opacity: 0.8; }
+
+.g-box-1200 .m-txth4 { margin-bottom: 0 }
+
+
+
+
+
+
+
